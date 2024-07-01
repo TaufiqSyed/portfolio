@@ -1,6 +1,6 @@
 import { FaLinkedin, FaGithub, FaChevronDown } from 'react-icons/fa'
-import { Socials } from '../_components/socials'
-import { SectionLink } from '../_components/section_link'
+import { Socials } from '../_components/about/socials'
+import { SectionLink } from '../_components/about/section_link'
 
 export const Landing = () => {
   const scrollToView = (id: string) => (e: any) => {
