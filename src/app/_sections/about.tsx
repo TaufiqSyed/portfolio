@@ -1,18 +1,19 @@
+import { FaChevronDown } from 'react-icons/fa'
 import { MdLocationOn } from 'react-icons/md'
 
 export const About = () => {
   return (
-    <section id='about' className='w-full h-full'>
-      <div className='flex flex-row w-full h-full'>
+    <section id='about' className='w-full h-full relative'>
+      <div className='flex flex-row w-full'>
         <div className='min-w-[320px] flex flex-col text-slate-100 bg-zinc-800/30 border-neutral-800 border rounded-xl py-8 px-6 m-10 items-center'>
           <div className='w-60 h-60 rounded-full bg-slate-900 mb-4' />
-          <h1 className='gradient-text font-extrabold text-xl mb-2 uppercase'>
-            {/* <h1 className='gradient-text font-medium text-2xl mb-2'> */}
+          <p className='gradient-text font-extrabold text-xl mb-2 uppercase'>
+            {/* <p className='gradient-text font-medium text-2xl mb-2'> */}
             Taufiq Syed
-          </h1>
+          </p>
           <div className='flex flex-row items-center text-xl mb-6'>
             <MdLocationOn />
-            <h1 className='font-light text-xl ml-2'>Dubai, UAE</h1>
+            <p className='font-light text-xl ml-2'>Dubai, UAE</p>
           </div>
           <div className='flex flex-row mt-3 items-start w-full text-start'>
             <div className='size-14 rounded-full bg-slate-700 mb-4' />
@@ -60,7 +61,7 @@ export const About = () => {
             {/* <p className='font-bold text-lg gradient-text'> */}
             About Me
           </p>
-          <div className='mb-8 w-full pt-5 pb-5 px-7 rounded-2xl mt-2 mb-2 bg-zinc-800/30 border-neutral-800 border'>
+          <div className='w-full pt-5 pb-5 px-7 rounded-2xl mt-2 mb-8 bg-zinc-800/30 border-neutral-800 border'>
             <p className='text-wrap w-full text-start'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -131,18 +132,21 @@ export const About = () => {
             Tech Stack
           </p>
           <div className='flex flex-row mt-3 items-start w-full text-start'>
-            <div className='size-16 rounded-3xl mb-4 mr-4 bg-black/20 border border-slate-800' />
-            <div className='size-16 rounded-3xl mb-4 mr-4 bg-black/20 border border-slate-800' />
-            <div className='size-16 rounded-3xl mb-4 mr-4 bg-black/20 border border-slate-800' />
-            <div className='size-16 rounded-3xl mb-4 mr-4 bg-black/20 border border-slate-800' />
-            <div className='size-16 rounded-3xl mb-4 mr-4 bg-black/20 border border-slate-800' />
-            <div className='size-16 rounded-3xl mb-4 mr-4 bg-black/20 border border-slate-800' />
-            <div className='size-16 rounded-3xl mb-4 mr-4 bg-black/20 border border-slate-800' />
-            <div className='size-16 rounded-3xl mb-4 mr-4 bg-black/20 border border-slate-800' />
-            <div className='size-16 rounded-3xl mb-4 mr-4 bg-black/20 border border-slate-800' />
-            <div className='size-16 rounded-3xl mb-4 mr-4 bg-black/20 border border-slate-800' />
+            <div className='size-16 rounded-3xl mr-4 bg-black/20 border border-slate-800' />
+            <div className='size-16 rounded-3xl mr-4 bg-black/20 border border-slate-800' />
+            <div className='size-16 rounded-3xl mr-4 bg-black/20 border border-slate-800' />
+            <div className='size-16 rounded-3xl mr-4 bg-black/20 border border-slate-800' />
+            <div className='size-16 rounded-3xl mr-4 bg-black/20 border border-slate-800' />
+            <div className='size-16 rounded-3xl mr-4 bg-black/20 border border-slate-800' />
+            <div className='size-16 rounded-3xl mr-4 bg-black/20 border border-slate-800' />
+            <div className='size-16 rounded-3xl mr-4 bg-black/20 border border-slate-800' />
+            <div className='size-16 rounded-3xl mr-4 bg-black/20 border border-slate-800' />
+            <div className='size-16 rounded-3xl mr-4 bg-black/20 border border-slate-800' />
           </div>
         </div>
+      </div>
+      <div className='absolute w-full bottom-12 flex flex-col items-center'>
+        <FaChevronDown size={16} />
       </div>
     </section>
   )

@@ -1,6 +1,11 @@
+import { FaChevronDown } from 'react-icons/fa'
+
 export const Projects = () => {
   return (
-    <section id='projects' className='flex flex-col justify-start items-center'>
+    <section
+      id='projects'
+      className='flex flex-col justify-start items-center relative'
+    >
       <p className='font-extrabold gradient-text uppercase text-3xl tracking-wide bg-slate-100 pt-10 pb-6'>
         Projects
       </p>
@@ -21,7 +26,7 @@ export const Projects = () => {
         ].map((e) => (
           <div
             key={e}
-            className='flex flex-col text-slate-100 bg-zinc-800/30 border-neutral-800 border rounded-xl py-12 px-6 m-4 items-center'
+            className='flex flex-col text-slate-100 bg-zinc-800/30 border-neutral-800 border rounded-xl py-10 px-6 m-4 items-center'
           >
             <p>Hello there</p>
             <p>
@@ -29,6 +34,9 @@ export const Projects = () => {
             </p>
           </div>
         ))}
+      </div>
+      <div className='absolute w-full bottom-10 flex flex-col items-center'>
+        <FaChevronDown size={16} />
       </div>
     </section>
   )

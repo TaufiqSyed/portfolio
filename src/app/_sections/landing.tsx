@@ -12,7 +12,7 @@ export const Landing = () => {
   return (
     <section
       id='landing'
-      className='flex min-h-screen flex-col items-center justify-between px-10 py-16   md:p-24'
+      className='flex min-h-screen flex-col items-center justify-between px-10 py-16 md:p-24'
     >
       <Socials />
       <div className='flex flex-col justify-content items-center'>
@@ -61,6 +61,9 @@ export const Landing = () => {
       <div className='relative w-full mt-5 flex flex-col items-center'>
         <FaChevronDown size={16} />
       </div>
+      {/* <div className='absolute w-full bottom-12 flex flex-col items-center'>
+        <FaChevronDown size={16} />
+      </div> */}
     </section>
   )
 }
