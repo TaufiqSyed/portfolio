@@ -3,9 +3,10 @@ import { MdLocationOn } from 'react-icons/md'
 
 export const About = () => {
   return (
-    <section id='about' className='w-full h-full relative'>
-      <div className='flex flex-row w-full'>
-        <div className='min-w-[320px] flex flex-col text-slate-100 bg-zinc-800/30 border-neutral-800 border rounded-xl py-8 px-6 m-10 items-center'>
+    <section id='about' className='w-full h-full relative flex-wrap'>
+      <div className='w-full h-full flex flex-row flex-wrap'>
+        <div className='flex-1 lg:flex-none' />
+        <div className='sm:w-full max-w-[320px] flex flex-col text-slate-100 bg-zinc-800/30 border-neutral-800 border rounded-xl py-8 px-6 m-10 items-center'>
           <div className='w-60 h-60 rounded-full bg-slate-900 mb-4' />
           <p className='gradient-text font-extrabold text-xl mb-2 uppercase'>
             {/* <p className='gradient-text font-medium text-2xl mb-2'> */}
@@ -56,7 +57,8 @@ export const About = () => {
             </div>
           </div>
         </div>
-        <div className='flex-grow h-full flex flex-col justify-start items-start py-14 px-20'>
+        <div className='flex-1 lg:flex-none' />
+        <div className='flex-grow lg:flex-1 sm-w-full h-full flex flex-col justify-start items-start py-14 px-20'>
           <p className='font-bold gradient-text uppercase text-md tracking-wide bg-slate-100'>
             {/* <p className='font-bold text-lg gradient-text'> */}
             About Me
@@ -131,7 +133,7 @@ export const About = () => {
             {/* <p className='font-bold text-lg gradient-text'> */}
             Tech Stack
           </p>
-          <div className='flex flex-row mt-3 items-start w-full text-start'>
+          <div className='flex flex-row mt-3 items-start w-full text-start flex-wrap'>
             <div className='size-16 rounded-3xl mr-4 bg-black/20 border border-slate-800' />
             <div className='size-16 rounded-3xl mr-4 bg-black/20 border border-slate-800' />
             <div className='size-16 rounded-3xl mr-4 bg-black/20 border border-slate-800' />
