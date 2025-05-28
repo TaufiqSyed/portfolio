@@ -54,7 +54,7 @@ export const Research: React.FC = () => {
   return (
     <section
       id="research"
-      className="py-20 px-6 md:px-20 text-gray-900 dark:text-white gradient-top-left min-h-screen relative"
+      className="py-20 px-6 text-gray-900 dark:text-white gradient-top-left min-h-screen relative"
     >
       <h2 className="text-4xl font-bold text-center mb-12">Research</h2>
       <div className="space-y-12">
@@ -120,7 +120,10 @@ export const Research: React.FC = () => {
       </div>
       <ScrollButton scrollViewName="about-me" />
 
-      <div className="absolute h-full w-full bg-stars bg-cover -z-0"></div>
+      <div
+        className="absolute h-full w-full bg-stars bg-cover -z-0"
+        style={{ transform: "scaleX(-1)" }}
+      ></div>
     </section>
   );
 };

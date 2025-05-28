@@ -19,7 +19,7 @@ const cardData = [
     icon: <FaUsers className="text-white" />,
     title: "Extracurricular Activities",
     description:
-      "President – Open Source Club (2023–2024)<br />Activities Coordinator – Tech-Entrepreneurship Club<br />Organized 15+ events and led a 5-part Flutter workshop series.",
+      "President - Open Source Club (2023-2024)<br />Activities Coordinator - Technopreneurship Club<br />Organized 15+ events and led a 5-part Flutter workshop series.",
   },
 ];
 
@@ -27,12 +27,12 @@ export const About = () => {
   return (
     <section
       id="about-me"
-      className="learnSection gradient-bottom-right text-start justify-start relative items-start flex flex-col w-full min-h-full pt-20 pb-10 px-4 md:pt-40"
+      className="learnSection gradient-bottom-right text-start justify-start relative items-start flex flex-col w-full min-h-screen pt-20 pb-10 md:pt-40"
     >
       <p className="font-extrabold gradient-text uppercase text-3xl tracking-wide pb-4 pt-6 text-center w-full">
         About Me
       </p>
-      <div className="w-full h-full flex flex-col items-center">
+      <div className="w-full h-full flex flex-col items-center px-4">
         <div className="w-full h-full flex flex-col items-center">
           <div className="flex flex-col md:flex-row items-center justify-center w-full">
             <img

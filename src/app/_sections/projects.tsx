@@ -71,12 +71,12 @@ export const Projects: React.FC = () => {
   return (
     <section
       id="projects"
-      className="learnSection gradient-bottom-left text-start justify-start relative items-start flex flex-col w-full min-h-full pt-20 px-4 md:pt-40 min-h-screen"
+      className="learnSection gradient-bottom-left text-start justify-start relative items-start flex flex-col w-full min-h-full pt-20 md:pt-40 min-h-screen"
     >
       <p className="font-extrabold gradient-text uppercase text-3xl tracking-wide pb-4 pt-6 text-center w-full">
         Projects
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 px-20">
         {projects.map((project, idx) => (
           <div
             key={idx}
