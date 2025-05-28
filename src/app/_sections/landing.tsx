@@ -21,7 +21,7 @@ export const Landing = () => {
   return (
     <section
       id="landing"
-      className="abstract gradient-bottom-right flex min-h-[110vh] flex-col items-center justify-between w-full relative"
+      className="abstract gradient-bottom-right flex min-h-screen flex-col items-center justify-between w-full relative"
     >
       <div className="flex flex-row w-full mt-[180px] justify-center sm:justify-normal">
         <div className="hidden sm:flex flex-1" />
