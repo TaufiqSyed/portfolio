@@ -44,16 +44,13 @@ export const About = () => {
             <div className="shadow-md rounded-lg p-6 max-w-2xl border border-gray-700 glass-gray mb-6 z-[10]">
               <p className="text-lg mb-4 text-center mt-4">
                 I’m a recent Computer Science graduate from the American
-                University of Sharjah,
-                <br />
-                with a strong foundation in AI, data science, and software
-                development.
+                University of Sharjah, with a strong foundation in AI, data
+                science, and software development.
               </p>
               <p className="text-lg mb-8 text-center">
                 Alongside my studies, I’ve been actively involved in student
-                leadership and tech communities,
-                <br />
-                creating spaces that inspire innovation and collaboration.
+                leadership and tech communities, creating spaces that inspire
+                innovation and collaboration.
               </p>
               <div className="flex justify-center">
                 <a
