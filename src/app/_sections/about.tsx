@@ -40,7 +40,7 @@ export const About = () => {
               alt="Taufiq Syed"
               className="w-2/3 md:w-1/3 mb-6 md:mb-0 md:mr-6 p-10 pb-20"
             />
-            <div className="shadow-md rounded-lg p-6 max-w-2xl border border-gray-700 glass-gray mb-6">
+            <div className="shadow-md rounded-lg p-6 max-w-2xl border border-gray-700 glass-gray mb-6 z-[10]">
               <p className="text-lg mb-4 text-center mt-4">
                 I’m a recent Computer Science graduate from the American
                 University of Sharjah,
@@ -71,7 +71,7 @@ export const About = () => {
           {cardData.map((card, index) => (
             <div
               key={index}
-              className="glass-gray shadow-lg rounded-lg p-6 max-w-sm"
+              className="glass-gray shadow-lg rounded-lg p-6 max-w-sm z-[10]"
             >
               <div className="flex items-center justify-center w-12 h-12 bg-purple-600 rounded-full mb-4">
                 {card.icon}

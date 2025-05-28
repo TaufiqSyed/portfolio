@@ -47,7 +47,9 @@ export const Experience: React.FC = () => {
   return (
     <section
       id="experience"
-      className="experience experienceSection gradient-top-right text-start justify-start relative items-start flex flex-col w-full min-h-full pt-20 px-4 md:pt-40 min-h-screen"
+
+      // className="experience experienceSection gradient-top-right text-start justify-start relative items-start flex flex-col w-full min-h-full px-4 pt-[300px] md:pt-[60px] min-h-screen"
+      // className="experience experienceSection gradient-top-right text-start justify-start relative items-start flex flex-col w-full min-h-full px-4 pt-[300px] md:pt-[60px] min-h-screen"
     >
       <p className="font-extrabold gradient-text uppercase text-3xl tracking-wide pb-4 pt-6 text-center w-full">
         Professional Experience

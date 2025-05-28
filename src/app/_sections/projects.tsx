@@ -78,7 +78,10 @@ export const Projects: React.FC = () => {
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {projects.map((project, idx) => (
-          <div key={idx} className="glass-gray-box shadow-md rounded-2xl p-6">
+          <div
+            key={idx}
+            className="glass-gray-box shadow-md rounded-2xl p-6 z-[10]"
+          >
             <div className="flex items-center justify-between mb-1">
               <h3 className="text-xl font-semibold">{project.title}</h3>
               {project.githubUrl && (

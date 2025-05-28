@@ -70,7 +70,7 @@ export const Research: React.FC = () => {
                 className="w-full h-full object-cover object-center rounded-md"
               />
             </div> */}
-            <div className="flex-1 flex flex-col justify-between max-w-[850px]">
+            <div className="flex-1 flex flex-col justify-between max-w-[850px] z-[10]">
               <div>
                 <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
                 <div className="text-sm text-gray-500 dark:text-gray-400 mb-3">
