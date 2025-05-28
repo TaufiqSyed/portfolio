@@ -2,6 +2,7 @@
 
 import React from "react";
 import { FaChevronDown, FaGithub } from "react-icons/fa";
+import { ScrollButton } from "../_components/scroll-button";
 
 interface Project {
   title: string;
@@ -103,9 +104,9 @@ export const Projects: React.FC = () => {
           </div>
         ))}
       </div>
-      <div className="relative w-full mt-4 mb-16 flex flex-col items-center">
-        <FaChevronDown size={16} />
-      </div>
+      <ScrollButton scrollViewName="research" />
+
+      <div className="absolute h-full w-full bg-stars bg-cover -z-0"></div>
     </section>
   );
 };

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
 import { MdLink } from "react-icons/md";
+import { ScrollButton } from "../_components/scroll-button";
 
 interface ResearchItem {
   title: string;
@@ -117,9 +118,9 @@ export const Research: React.FC = () => {
           </div>
         ))}
       </div>
-      <div className="relative w-full mt-4 mb-16 flex flex-col items-center">
-        <FaChevronDown size={16} />
-      </div>
+      <ScrollButton scrollViewName="about-me" />
+
+      <div className="absolute h-full w-full bg-stars bg-cover -z-0"></div>
     </section>
   );
 };

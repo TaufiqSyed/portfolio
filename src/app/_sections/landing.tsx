@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 import { SectionLink } from "../_components/about/section-link";
 import SocialIcons from "../_components/social-icons";
+import { ScrollButton } from "../_components/scroll-button";
 
 export const Landing = () => {
   const scrollToView = (id: string) => (e: any) => {
@@ -20,7 +21,7 @@ export const Landing = () => {
   return (
     <section
       id="landing"
-      className="gradient-bottom-right flex min-h-screen flex-col items-center justify-between w-full relative"
+      className="abstract gradient-bottom-right flex min-h-screen flex-col items-center justify-between w-full relative"
     >
       <div className="flex flex-row w-full mt-[180px] justify-center sm:justify-normal">
         <div className="hidden sm:flex flex-1" />
@@ -75,9 +76,7 @@ export const Landing = () => {
         <div className='h-full w-full bg-gradient-to-r from-black'></div> */}
       {/* </div> */}
 
-      <div className="relative w-full mt-0 mb-16 flex flex-col items-center">
-        <FaChevronDown size={16} />
-      </div>
+      <ScrollButton scrollViewName="experience" />
     </section>
   );
 };

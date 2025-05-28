@@ -7,7 +7,7 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="flex flex-row justify-center m-0 absolute w-screen px-8 z-[3]">
+    <div className="flex flex-row justify-center m-0 absolute w-screen px-8 z-[11]">
       <div className="bg-[#020103] max-w-[700px] flex flex-row items-center py-4 px-5 mt-4 border-gray-800 border rounded-xl w-full">
         <a href="#landing" className="mr-16">
           <img src="tfqsy.svg" className="w-10 h-10" />

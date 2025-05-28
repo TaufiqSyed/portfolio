@@ -1,14 +1,11 @@
 import React from "react";
-import { BiLogoGmail } from "react-icons/bi";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
-import { RiMailFill, RiMailOpenFill } from "react-icons/ri";
 
 const socialIconSize = 32;
 const SocialIcons: React.FC = () => {
   return (
-    <div className="flex flex-row space-x-6 mt-4">
-      {/* SVG Gradients */}
+    <div className="flex flex-row space-x-6 mt-4 z-[10]">
       <svg width="0" height="0" className="absolute">
         <defs>
           <linearGradient
@@ -44,7 +41,6 @@ const SocialIcons: React.FC = () => {
         </defs>
       </svg>
 
-      {/* Icons */}
       <a
         href="mailto:taufiq.m.a.syed@gmail.com"
         className="z-1 group cursor-pointer"

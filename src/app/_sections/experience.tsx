@@ -1,5 +1,6 @@
 import React from "react";
 import { FaChevronDown } from "react-icons/fa";
+import { ScrollButton } from "../_components/scroll-button";
 
 interface ExperienceItem {
   role: string;
@@ -46,7 +47,7 @@ export const Experience: React.FC = () => {
   return (
     <section
       id="experience"
-      className="experienceSection gradient-top-right text-start justify-start relative items-start flex flex-col w-full min-h-full pt-20 px-4 md:pt-40 min-h-screen"
+      className="experience experienceSection gradient-top-right text-start justify-start relative items-start flex flex-col w-full min-h-full pt-20 px-4 md:pt-40 min-h-screen"
     >
       <p className="font-extrabold gradient-text uppercase text-3xl tracking-wide pb-4 pt-6 text-center w-full">
         Professional Experience
@@ -92,9 +93,9 @@ export const Experience: React.FC = () => {
           </div>
         ))}
       </div>
-      <div className="relative w-full mt-4 mb-16 flex flex-col items-center">
-        <FaChevronDown size={16} />
-      </div>
+      <ScrollButton scrollViewName="projects" />
+
+      <div className="absolute h-full w-full bg-stars bg-cover -z-0"></div>
     </section>
   );
 };

@@ -87,6 +87,7 @@ export const About = () => {
           ))}
         </div>
       </div>
+      <div className="absolute h-full w-full bg-stars bg-cover -z-0"></div>
     </section>
   );
 };
