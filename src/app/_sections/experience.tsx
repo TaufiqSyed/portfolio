@@ -49,7 +49,11 @@ export const Experience: React.FC = () => {
       id="experience"
       className="experience experienceSection gradient-top-right text-start justify-start relative items-start flex flex-col w-full pt-20 md:pt-[60px] min-h-screen"
     >
-      {/* <div className="absolute h-full w-full bg-stars bg-cover -z-0"></div> */}
+      <div
+        className="absolute h-full w-full bg-stars bg-cover -z-0"
+        style={{ transform: "scaleX(-1)" }}
+      ></div>
+
       <div className="flex-1"></div>
       <p className="font-extrabold gradient-text uppercase text-3xl tracking-wide pb-4 pt-6 text-center w-full">
         Professional Experience
@@ -96,10 +100,6 @@ export const Experience: React.FC = () => {
         ))}
       </div>
       <ScrollButton scrollViewName="projects" />
-      <div
-        className="absolute h-full w-full bg-stars bg-cover -z-0"
-        style={{ transform: "scaleX(-1)" }}
-      ></div>
 
       <div className="flex-1"></div>
     </section>

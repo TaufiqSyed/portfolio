@@ -56,20 +56,19 @@ export const Research: React.FC = () => {
       id="research"
       className="py-20 px-6 text-gray-900 dark:text-white gradient-top-left min-h-screen relative"
     >
-      <h2 className="text-4xl font-bold text-center mb-12">Research</h2>
+      <div
+        className="absolute h-full w-full bg-stars bg-cover -z-0"
+        style={{ transform: "scaleX(-1)" }}
+      ></div>
+      <p className="font-extrabold gradient-text uppercase text-3xl tracking-wide pb-4 pt-6 text-center w-full">
+        Research
+      </p>
       <div className="space-y-12">
         {researchProjects.map((item, index) => (
           <div
             key={index}
             className="flex flex-col md:flex-row gap-8 rounded-xl border border-gray-300 dark:border-gray-700 py-6 px-6 shadow-md glass-gray-box"
           >
-            {/* <div className="w-full md:w-1/3 h-64 overflow-hidden rounded-lg">
-              <img
-                src={item.imageSrc}
-                alt={item.title}
-                className="w-full h-full object-cover object-center rounded-md"
-              />
-            </div> */}
             <div className="flex-1 flex flex-col justify-between max-w-[850px] z-[10]">
               <div>
                 <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
@@ -119,11 +118,6 @@ export const Research: React.FC = () => {
         ))}
       </div>
       <ScrollButton scrollViewName="about-me" />
-
-      <div
-        className="absolute h-full w-full bg-stars bg-cover -z-0"
-        style={{ transform: "scaleX(-1)" }}
-      ></div>
     </section>
   );
 };

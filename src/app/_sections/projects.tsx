@@ -73,6 +73,7 @@ export const Projects: React.FC = () => {
       id="projects"
       className="learnSection gradient-bottom-left text-start justify-start relative items-start flex flex-col w-full min-h-full pt-20 md:pt-40 min-h-screen"
     >
+      <div className="absolute h-full w-full bg-stars bg-cover -z-0"></div>
       <p className="font-extrabold gradient-text uppercase text-3xl tracking-wide pb-4 pt-6 text-center w-full">
         Projects
       </p>
@@ -108,8 +109,6 @@ export const Projects: React.FC = () => {
         ))}
       </div>
       <ScrollButton scrollViewName="research" />
-
-      <div className="absolute h-full w-full bg-stars bg-cover -z-0"></div>
     </section>
   );
 };
