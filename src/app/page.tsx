@@ -14,6 +14,11 @@ export default function Home() {
       <Projects />
       <Research />
       <About />
+      {/* <footer className="footer bg-black">
+        <div className="container mx-auto py-6 text-center text-gray-500 text-sm">
+          © {new Date().getFullYear()} Taufiq Syed. All rights reserved.
+        </div>
+      </footer> */}
     </div>
   );
 }

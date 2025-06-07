@@ -91,8 +91,8 @@ body {
 }
 
 .gradient-top-left {
-  /* background: radial-gradient(circle at top left, #7637db 0%, transparent 35%, transparent 50%); */
-  background: radial-gradient(circle at top left, rgba(118, 55, 219, 0.6) 0%, transparent 60%, transparent 80%);
+  background: radial-gradient(circle at top left, #7637db 0%, transparent 35%, transparent 50%);
+  /* background: radial-gradient(circle at top left, rgba(118, 55, 219, 0.6) 0%, transparent 60%, transparent 80%); */
 }
 
 .gradient-top-right {
@@ -104,8 +104,8 @@ body {
 }
 
 .gradient-bottom-left {
-  /* background: radial-gradient(circle at bottom left, #7637db 0%, transparent 35%, transparent 50%); */
-  background: radial-gradient(circle at bottom left, rgba(118, 55, 219, 0.6) 0%, transparent 60%, transparent 80%);
+  background: radial-gradient(circle at bottom left, #7637db 0%, transparent 35%, transparent 50%);
+  /* background: radial-gradient(circle at bottom left, rgba(118, 55, 219, 0.6) 0%, transparent 60%, transparent 80%); */
 }
 
 .gradient-bottom-right {

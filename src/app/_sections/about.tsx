@@ -27,7 +27,8 @@ export const About = () => {
   return (
     <section
       id="about-me"
-      className="learnSection gradient-bottom-right text-start justify-start relative items-start flex flex-col w-full min-h-screen pt-20 pb-10 md:pt-40"
+      className="learnSection gradient-bottom-right text-start justify-start relative items-start flex flex-col w-full min-h-screen pt-20 md:pt-40"
+      // className="learnSection gradient-bottom-right text-start justify-start relative items-start flex flex-col w-full min-h-screen pt-20 pb-10 md:pt-40"
     >
       <div className="absolute h-full w-full bg-stars bg-cover -z-0"></div>
       <p className="font-extrabold gradient-text uppercase text-3xl tracking-wide pb-4 pt-6 text-center w-full">
